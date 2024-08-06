@@ -20,7 +20,10 @@ console.log(fullName.length);
 //string methods
 
 //Note difference in colours - orange is a property, green is a method, as can be seen on hover
+//This is also where you do or do not need to use brackets.
 console.log(fullName.substring(0, fullName.length));
+
+//technically, arguments should be used over parameters in terminology
 console.log("fullName.substring(0, 8): " + fullName.substring(0, 8));
 console.log(
   "fullName.substring(0, fullname.length): " +
