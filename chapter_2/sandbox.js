@@ -11,5 +11,13 @@ const pi = 3.142;
 // let result = radius % 3;
 // console.log(result);
 
-let result = pi * radius ** 2;
-console.log(result);
+// let result = pi * radius ** 2;
+// console.log(result);
+
+//order of operations - BIDMAS
+//brackets
+//indices
+//division
+//multiplicatOrdeion
+//addition
+//subtraction
