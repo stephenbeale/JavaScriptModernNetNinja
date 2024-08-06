@@ -21,16 +21,23 @@ console.log(fullName.length);
 
 //Note difference in colours - orange is a property, green is a method, as can be seen on hover
 console.log(fullName.substring(0, fullName.length));
-console.log(fullName.substring(0, 4));
+console.log("fullName.substring(0, 8): " + fullName.substring(0, 8));
+console.log(
+  "fullName.substring(0, fullname.length): " +
+    fullName.substring(0, fullName.length)
+);
 
 console.log(fullName.toUpperCase());
-
 let result = console.log(fullName.toLowerCase());
-console.log(result);
 
-console.log(fullName.indexOf("n"));
+console.log("fullName.indexOf('n'): " + fullName.indexOf("n"));
+console.log("fullName.indexOf('o'): " + fullName.indexOf("o"));
 
-console.log(fullName.lastIndexOf("n"));
+console.log("fullName.lastIndexOf('s', 4) :" + fullName.lastIndexOf("s", 4));
+console.log(
+  "fullName.lastIndexOf('s', fullName.length - 1) :" +
+    fullName.lastIndexOf("s", fullName.length - 1)
+);
 
 console.log(fullName.includes("n"));
 
