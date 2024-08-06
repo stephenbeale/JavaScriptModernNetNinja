@@ -21,3 +21,12 @@ const pi = 3.142;
 //multiplicatOrdeion
 //addition
 //subtraction
+
+// let result = 5 * (10 - 3) ** 2;
+// console.log(result);
+
+//e.g. likes on a blog post
+let likes = 10;
+// likes = likes + 1;
+likes++;
+console.log(likes);
