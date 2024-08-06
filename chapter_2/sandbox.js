@@ -1,55 +1,27 @@
-let radius = 10;
-const pi = 3.142;
+//template strings
+const title = "Best reads of 2024";
+const author = "Mario";
+const likes = 30;
 
-// console.log(radius, pi);
-// console.log("Table: radius, pi");
-// console.table(radius, pi);
-// console.log("Table: [radius, pi]");
-// console.table([radius, pi]);
+//concatenation way
+let result =
+  "The blog called " + title + " by " + author + " has " + likes + " likes";
+console.log(result);
 
-// console.log(10 / 2);
-// let result = radius % 3;
-// console.log(result);
+//template string way
 
-// let result = pi * radius ** 2;
-// console.log(result);
+//template string AKA template literal
+let tresult = `The blog called ${title} by ${author} has ${likes} likes`;
+console.table([result]);
+//creating html templates
 
-//order of operations - BIDMAS
-//brackets
-//indices
-//division
-//multiplicatOrdeion
-//addition
-//subtraction
+let html = `
+<h2>${title}</h2>
+<p>By ${author}</p>
+<span>This blog has ${likes} likes</span>
+`;
+console.log(html);
 
-// let result = 5 * (10 - 3) ** 2;
-// console.log(result);
+console.table([html]);
 
-//e.g. likes on a blog post
-let likes = 10;
-// likes = likes + 1;
-// likes++;
-// console.log(likes);
-
-// likes--;
-// console.log(likes);
-
-// likes += 10;
-// console.log(likes);
-
-// likes -= 5;
-// console.log(likes);
-
-// likes *= 2;
-// console.log(likes);
-
-// likes /= 2;
-// console.log(likes);
-
-// likes %= 2;
-// console.log(likes);
-
-//NaN example - not a number
-// console.log(likes / "a");
-
-//console.log("the blog has " + likes + " likes");
+document.body.innerHTML = html;
