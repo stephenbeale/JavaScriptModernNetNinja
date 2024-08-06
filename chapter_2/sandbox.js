@@ -52,4 +52,4 @@ let likes = 10;
 //NaN example - not a number
 // console.log(likes / "a");
 
-console.log("the blog has " + likes + " likes");
+//console.log("the blog has " + likes + " likes");
