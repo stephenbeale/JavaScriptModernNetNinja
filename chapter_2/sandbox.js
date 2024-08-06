@@ -30,3 +30,18 @@ let likes = 10;
 // likes = likes + 1;
 likes++;
 console.log(likes);
+
+likes--;
+console.log(likes);
+
+likes += 10;
+console.log(likes);
+
+likes -= 5;
+console.log(likes);
+
+likes *= 2;
+console.log(likes);
+
+likes /= 2;
+console.log(likes);
