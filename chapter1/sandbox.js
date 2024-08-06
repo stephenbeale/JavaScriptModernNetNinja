@@ -21,6 +21,7 @@ console.log(fullName.length);
 
 //Note difference in colours - orange is a property, green is a method, as can be seen on hover
 //This is also where you do or do not need to use brackets.
+//PR needed.
 console.log(fullName.substring(0, fullName.length));
 
 //technically, arguments should be used over parameters in terminology
