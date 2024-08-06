@@ -1,7 +1,8 @@
 //common string methods
 
 let email = "mario@thenetninja.co.uk";
-let result = email.slice(0, 10);
-let result2 = email.slice(0, 5);
+let result = email.substring(0, email.lastIndexOf("@"));
 console.log(result);
-console.log(result2);
+
+result = email.substring(4, 12);
+console.log(result);
