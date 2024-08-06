@@ -1,8 +1,7 @@
 //common string methods
 
 let email = "mario@thenetninja.co.uk";
-let result = email.substring(0, email.lastIndexOf("@"));
+//Find first m, replace with w
+let result = email.replace("m", "w");
 console.log(result);
 
-result = email.substring(4, 12);
-console.log(result);
