@@ -43,7 +43,11 @@ console.log("Final index of random array: " + (random.length - 1));
 // //Pop is a destructive method as it alters the original value
 let result = ninjas.concat(ages);
 console.log(result);
+
+ninjas.push("steve");
 //Array then just becomes the last element it is popping off the top of the stack
-result = result.pop();
-console.log("Result with popped element removes last element of the array");
-console.log(result);
+console.log("Pushed steve onto ninjas");
+console.log(ninjas);
+ninjas = ninjas.pop();
+console.log("Calling pop means it shows popped element i.e. end of array");
+console.log(ninjas);
