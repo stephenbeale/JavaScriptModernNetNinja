@@ -35,6 +35,7 @@ let result = ninjas.concat(ages);
 // console.log(result);
 // console.table(result);
 
+//Push is a destructive method as it alters the original value
 result = ninjas.push("ryu");
 console.log("Result with pushed element adds new length of the array");
 console.log(ninjas);
