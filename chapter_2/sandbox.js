@@ -30,3 +30,7 @@ console.log("Final index of random array: " + (random.length - 1));
 let result = ninjas.concat(ages);
 console.log(result);
 console.table(result);
+
+result = ninjas.concat(["ken", "chun-li"]);
+console.log(result);
+console.table(result);
