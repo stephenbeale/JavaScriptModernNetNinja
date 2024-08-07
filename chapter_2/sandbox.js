@@ -21,3 +21,7 @@ let random = ["shaun", "crystal", 30, 20];
 console.log(random);
 console.log("Length of random array: " + random.length);
 console.log("Final index of random array: " + (random.length - 1));
+
+//array methods
+
+console.log(random.join(","));
