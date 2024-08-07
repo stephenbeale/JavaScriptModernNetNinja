@@ -42,5 +42,11 @@ console.log('name == "steve"');
 console.log(namey == "steve");
 console.log('name == "Steve"');
 console.log(namey == "Steve");
+//later = greater than
 console.log('namey > "steve"');
 console.log(namey > "steve");
+
+//later = greater than
+//lower-case letters are greater than upper-case letters
+console.log('namey > "Steve"');
+console.log(namey > "Steve");
