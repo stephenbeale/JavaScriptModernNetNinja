@@ -7,7 +7,7 @@ let ninjas = ["yoshi", "mario", "luigi"];
 // console.log(ninjas[1]);
 
 // console.log("Ages array");
-// let ages = ["20", "25", "30", "35"];
+let ages = ["20", "25", "30", "35"];
 
 // console.log(ages);
 // console.log("Ages array as table");
@@ -24,4 +24,9 @@ console.log("Final index of random array: " + (random.length - 1));
 
 //array methods
 
-console.log(random.join(","));
+// console.log(random.join(","));
+// console.log(random.join(" HELLO "));
+
+let result = ninjas.concat(ages);
+console.log(result);
+console.table(result);
