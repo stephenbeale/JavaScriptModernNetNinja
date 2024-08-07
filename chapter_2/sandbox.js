@@ -1,6 +1,24 @@
 let age = null;
 
-//null is 0 by default
-console.log(age, age + 3, `the age is ${age}`);
+//concatenation way
+let result =
+  "The blog called " + title + " by " + author + " has " + likes + " likes";
+console.log(result);
 
-//pr come on
+//template string way
+
+//template string AKA template literal
+let tresult = `The blog called ${title} by ${author} has ${likes} likes`;
+console.table([result]);
+//creating html templates
+
+let html = `
+<h2>${title}</h2>
+<p>By ${author}</p>
+<span>This blog has ${likes} likes</span>
+`;
+console.log(html);
+
+console.table([html]);
+
+document.body.innerHTML = html;
