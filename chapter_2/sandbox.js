@@ -13,3 +13,8 @@ console.log("Strict comparison, using ===");
 console.log(age === 25);
 console.log("Strict comparison, using === for a string '25'");
 console.log(age === "25");
+
+console.log("Strict comparison, using !== for '25'");
+console.log(age !== 25);
+console.log("Strict comparison, using !== for a string '25'");
+console.log(age !== "25");
