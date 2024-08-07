@@ -20,18 +20,27 @@ let names = ["mario", "luigi", "toad"];
 // console.log(names);
 
 //comparison operators
-let age = 25;
-console.log("Is age == 25?");
-console.log(age == 25);
-console.log("Is age == 35?");
-console.log(age == 35);
-console.log("Is age != 35?");
-console.log(age != 35);
-console.log("age > 20");
-console.log(age > 20);
-console.log("age < 20");
-console.log(age < 20);
-console.log("age >= 20");
-console.log(age >= 20);
-console.log("age <= 20");
-console.log(age <= 20);
+// let age = 25;
+// console.log("Is age == 25?");
+// console.log(age == 25);
+// console.log("Is age == 35?");
+// console.log(age == 35);
+// console.log("Is age != 35?");
+// console.log(age != 35);
+// console.log("age > 20");
+// console.log(age > 20);
+// console.log("age < 20");
+// console.log(age < 20);
+// console.log("age >= 20");
+// console.log(age >= 20);
+// console.log("age <= 20");
+// console.log(age <= 20);
+
+let namey = "steve";
+
+console.log('name == "steve"');
+console.log(namey == "steve");
+console.log('name == "Steve"');
+console.log(namey == "Steve");
+console.log('namey > "steve"');
+console.log(namey > "steve");
