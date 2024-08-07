@@ -17,5 +17,5 @@ let ninjas = ["yoshi", "mario", "luigi"];
 // console.groupCollapsed(ninjas, ages);
 // console.groupEnd();
 
-let random = ["shaun", "crystal", 30, 20];
-console.log(random);
+// let random = ["shaun", "crystal", 30, 20];
+// console.log(random);
