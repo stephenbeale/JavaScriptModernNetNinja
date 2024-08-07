@@ -28,9 +28,13 @@ console.log("Final index of random array: " + (random.length - 1));
 // console.log(random.join(" HELLO "));
 
 let result = ninjas.concat(ages);
-console.log(result);
-console.table(result);
+// console.log(result);
+// console.table(result);
 
-result = ninjas.concat(["ken", "chun-li"]);
-console.log(result);
-console.table(result);
+// result = ninjas.concat(["ken", "chun-li"]);
+// console.log(result);
+// console.table(result);
+
+result = ninjas.push("ryu");
+console.log("Result with pushed element adds new length of the array");
+console.log(ninjas);
