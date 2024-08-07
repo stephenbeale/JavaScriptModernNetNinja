@@ -27,15 +27,23 @@ console.log("Final index of random array: " + (random.length - 1));
 // console.log(random.join(","));
 // console.log(random.join(" HELLO "));
 
+// let result = ninjas.concat(ages);
+// // console.log(result);
+// // console.table(result);
+
+// // result = ninjas.concat(["ken", "chun-li"]);
+// // console.log(result);
+// // console.table(result);
+
+// //Push is a destructive method as it alters the original value
+// result = ninjas.push("ryu");
+// console.log("Result with pushed element adds new length of the array");
+// console.log(ninjas);
+
+// //Pop is a destructive method as it alters the original value
 let result = ninjas.concat(ages);
-// console.log(result);
-// console.table(result);
-
-// result = ninjas.concat(["ken", "chun-li"]);
-// console.log(result);
-// console.table(result);
-
-//Push is a destructive method as it alters the original value
-result = ninjas.push("ryu");
-console.log("Result with pushed element adds new length of the array");
-console.log(ninjas);
+console.log(result);
+//Array then just becomes the last element it is popping off the top of the stack
+result = result.pop();
+console.log("Result with popped element removes last element of the array");
+console.log(result);
