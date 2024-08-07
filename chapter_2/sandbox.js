@@ -11,4 +11,12 @@ console.log("Result includes !");
 result = email.includes("!");
 console.log(result);
 
+console.log("Names array");
+let names = ["mario", "luigi", "toad"];
+console.log(names);
+
+console.log("Names array includes i");
+names = email.includes("i");
+console.log(names);
+
 //comparison operators
