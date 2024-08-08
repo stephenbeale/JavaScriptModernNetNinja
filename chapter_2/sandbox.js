@@ -1,17 +1,9 @@
-//while loops
+//do-while
+//run at least once, regardless of whether the condition is true
 
-const names = ["luigi", "mario", "yoshi"];
-let i = 0;
-
-//infinite loop if true! Don't do this
-
-// let i = 0;
-// while (i < 5) {
-//     console.log("in loop", i);
-//     i++;
-// };
-
-while (i < names.length) {
-    console.log(names[i]);
+let i= 5;
+do {
+    console.log("val of i is: ", i);
     i++;
-}
+} while (i<5);
+//while statement does need semi-colon
