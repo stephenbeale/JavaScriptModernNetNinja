@@ -8,5 +8,5 @@ if (age >= 18) {
 
 const ninjas = ["ryu", "chun-li", "yoshi"];
 if (ninjas.length >= 3) {
-    console.log("you have a lot of ninjas");
+    console.log("that\'s a lot have a lot of ninjas");
 }
