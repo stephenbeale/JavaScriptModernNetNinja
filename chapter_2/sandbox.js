@@ -1,14 +1,10 @@
-//logical NOT (!)
+//break and continue
 
-let user = false;
+const scores = [50, 30, 24, 78, 68, 100];
 
-//only runs when true
-if(!user) {
-    console.log('condition is true');
+for (let i = 0; i < scores.length; i++) {
+    if (scores[i] < 60) {
+        continue;
+    }
+    console.log(`Score: ${scores[i]}`);
 }
-
-console.log(true);
-console.log(false);
-
-console.log(!true);
-console.log(!false);
