@@ -1,14 +1,19 @@
-//logical NOT (!)
+//switch statements
 
-let user = false;
+const grade  = "D";
 
-//only runs when true
-if(!user) {
-    console.log('condition is true');
+switch (grade) {
+    case "A": console.log("you got an A");
+    break;
+    case "B": console.log("you got a B");
+    break;
+    case "C": console.log("you got a C");
+    break;
+    case "D": console.log("you got a D");
+    break;
+    case "E": console.log("you got a E");
+    break;
+    case "F": console.log("you got an F");
+    break;
+    default: console.log("not a valid grade");
 }
-
-console.log(true);
-console.log(false);
-
-console.log(!true);
-console.log(!false);
