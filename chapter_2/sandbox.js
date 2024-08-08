@@ -10,3 +10,13 @@ const ninjas = ["ryu", "chun-li", "yoshi"];
 if (ninjas.length >= 3) {
     console.log("that\'s a lot have a lot of ninjas");
 }
+
+const password = 'pass';
+if (password.length >= 12) {
+    console.log("that\'s a very strong password");
+} else if (password.length >= 8) {
+    console.log("that\'s a strong password");
+} else {
+    console.log("that\'s a very weak password");
+}
+
