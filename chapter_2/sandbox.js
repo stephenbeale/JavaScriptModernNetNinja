@@ -1,26 +1,10 @@
-//switch statements
-
-const grade = "D";
-
-switch (grade) {
-  case "A":
-    console.log("you got an A");
-    break;
-  case "B":
-    console.log("you got a B");
-    break;
-  case "C":
-    console.log("you got a C");
-    break;
-  case "D":
-    console.log("you got a D");
-    break;
-  case "E":
-    console.log("you got a E");
-    break;
-  case "F":
-    console.log("you got an F");
-    break;
-  default:
-    console.log("not a valid grade");
+//variables and block scope
+if (true) {
+  var a = 1;
+  let b = 2;
+  const c = 3;
+  console.log(a);
+  console.log(b);
+  console.log(c);
 }
+console.log(a);
