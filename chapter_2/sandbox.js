@@ -2,7 +2,9 @@
 
 let age = 30;
 
+age = 50;
 if (true) {
-  console.log(age);
+  age = 40;
+  console.log("inside code block", age);
 }
-console.log(age);
+console.log("outside code block", age);
