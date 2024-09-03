@@ -1,9 +1,9 @@
-// functional declaration
+// function declaration
 function greet() {
     console.log("hello world");
 }
 
-// functional expression
+// function expression
 const speak = function () {
     console.log("good day");
 };
