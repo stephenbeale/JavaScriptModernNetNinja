@@ -1,14 +1,8 @@
-// function declaration
-function greet() {
-    console.log("hello world");
+const calcArea = function(radius) {
+    return 3.142 * radius **2;
 }
 
-// function expression
-const speak = function () {
-    console.log("good day");
-};
+// arrow function
 
-
-//calling or invoking the function
-greet();
-speak();
+const area = calcArea(5);
+console.log('area is:', area);
