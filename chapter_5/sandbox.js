@@ -7,3 +7,5 @@ let user = {
     location: 'berlin',
     blogs: ['why mac and cheese rules', '10 things to make after marmite']
 };
+
+console.log(user);
