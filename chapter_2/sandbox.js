@@ -3,6 +3,6 @@
 let people = ['mario', 'luigi', 'yoshi'];
 
 //Call the method on the people array, person name is arbitray, created on the fly
-people.forEach(person => {
-    console.log(person);
+people.forEach((person, index) => {
+    console.log(index, person);
 });
