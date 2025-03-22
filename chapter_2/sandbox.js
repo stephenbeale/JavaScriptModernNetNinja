@@ -1,11 +1,7 @@
 //callbacks and for-each
 
-const myFunc = (callbackFunc) => {
-    //do something
-    let value = 50;
-    callbackFunc(value);
-}
+let people = ['mario', 'luigi', 'yoshi'];
 
-myFunc(value => {
-    console.log(value);
+people.forEach(function(person) {
+    console.log(person);
 });
