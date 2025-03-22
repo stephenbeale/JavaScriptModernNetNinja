@@ -9,19 +9,23 @@
 //     return 'hello, world';
 //   }
 
-//Most minimal arrow function with no parameters
-  const greet = () => 'hello world';
+// //Most minimal arrow function with no parameters
+//   const greet = () => 'hello world';
 
 
-  const result = greet();
+//   const result = greet();
 
-  console.log(result);
+//   console.log(result);
   
-  // const bill = (products, tax) => {
-  //   let total = 0;
-  //   for (let i = 0; i < products.length; i++) {
-  //     total += products[i] + products[i] * tax;
-  //   }
-  //   return total;
-  // };
+  const bill = (products, tax) => {
+    let total = 0;
+    for (let i = 0; i < products.length; i++) {
+      total += products[i] + products[i] * tax;
+    }
+    return total;
+  };
+
+  const result = bill([1, 2], 4);
+
+  console.log(result)
   
