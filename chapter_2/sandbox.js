@@ -36,7 +36,5 @@
       return total;
   }
 
-  const result = 
-
-  console.log(bill([1, 4], 0.2));
+console.log(bill([1, 4], 0.2));
   
