@@ -1,10 +1,15 @@
-//callbacks and for-each
+//get a reference to the ul
+const ul = document.querySelector('.people');
 
-let people = ['mario', 'luigi', 'yoshi'];
+const people = ['mario', 'luigi', 'yoshi'];
 
-const logPerson = (person, index) => {
-    console.log(`${index} - hello ${person}`);    
-}
+let html = ``;
 
-//Call the method on the people array, person name is arbitray, created on the fly
-people.forEach((logPerson));
+people.forEach(person => {
+    html += `<li style="color: purple">${person}</li>`
+});
+
+console.log(html);
+
+//Grabs the ul, places the html inside the ul.
+ul.innerHTML = html;
