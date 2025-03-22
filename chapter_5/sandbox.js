@@ -23,3 +23,6 @@ user['name'] = "chun-li";
 
 const someName = "Zangief";
 console.log(user[someName]);
+
+//Typeof operator
+console.log("Type of: " + (typeof user))
