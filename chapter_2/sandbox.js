@@ -2,7 +2,9 @@
 
 let people = ['mario', 'luigi', 'yoshi'];
 
+const logPerson = (person, index) => {
+    console.log(`${index} - hello ${person}`);    
+}
+
 //Call the method on the people array, person name is arbitray, created on the fly
-people.forEach((person, index) => {
-    console.log(index, person);
-});
+people.forEach((logPerson));
