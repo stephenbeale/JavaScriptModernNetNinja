@@ -18,3 +18,7 @@ console.log(user.age);
 
 //Looks for name property only
 console.log(user['name']);
+
+user['name'] = "chun-li";
+
+console.log(user['name']);
