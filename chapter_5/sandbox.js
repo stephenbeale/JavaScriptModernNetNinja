@@ -15,3 +15,6 @@ console.log(user.name);
 user.age = 35;
 
 console.log(user.age);
+
+//Looks for name property only
+console.log(user['name']);
