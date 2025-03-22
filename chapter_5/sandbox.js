@@ -9,3 +9,9 @@ let user = {
 };
 
 console.log(user);
+
+console.log(user.name);
+
+user.age = 35;
+
+console.log(user.age);
