@@ -1,15 +1,27 @@
+// practise arrow functions
+//Convert this regular function to an arrow function
+// const greet = function () {
+//     return 'hello, world';
+//   };
 
-//regular function
-// const calcArea = function(radius) {
-//     return 3.142 * radius **2;
-// }
+//But can also remove certain parts
+//   const greet = () => {
+//     return 'hello, world';
+//   }
 
-// arrow function
-//Parentheses are optional for 1 param, but no param or >1, they are required.
-const calcArea = (radius) => {
-    return 3.142 * radius **2;
-}
+//Most minimal arrow function with no parameters
+  const greet = () => 'hello world';
 
 
-const area = calcArea(5);
-console.log('area is:', area);
+  const result = greet();
+
+  console.log(result);
+  
+  // const bill = (products, tax) => {
+  //   let total = 0;
+  //   for (let i = 0; i < products.length; i++) {
+  //     total += products[i] + products[i] * tax;
+  //   }
+  //   return total;
+  // };
+  
