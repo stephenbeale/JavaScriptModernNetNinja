@@ -21,5 +21,5 @@ console.log(user['name']);
 
 user['name'] = "chun-li";
 
-//hmm
-console.log(user['name']);
+const someName = "Zangief";
+console.log(user[someName]);
