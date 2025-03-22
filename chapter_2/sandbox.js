@@ -6,6 +6,6 @@ const myFunc = (callbackFunc) => {
     callbackFunc(value);
 }
 
-myFunc(function(value){
+myFunc(value => {
     console.log(value);
 });
