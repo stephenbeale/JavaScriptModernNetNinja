@@ -11,3 +11,6 @@ let user = {
     }
 };
 
+
+//calling the method on the user
+user.login();
