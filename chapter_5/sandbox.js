@@ -11,15 +11,12 @@ let user = {
     },
     logout: function() {
         console.log('the user is logged out');
+    },
+    logBlogs: function() {
+
     }
+
 };
 
-
-//calling the method on the user
-user.login();
-
-const userName = 'mario';
-console.log(userName);
-console.log(userName.toUpperCase());
-
-user.logout();
+//this used in this way logs the global context in JS, which is the 'window' object, as can be seen on the console.
+console.log(this);
