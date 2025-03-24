@@ -8,6 +8,9 @@ let user = {
     blogs: ['why mac and cheese rules', '10 things to make after marmite'],
     login: function() {
         console.log('the user logged in');
+    },
+    logout: function() {
+        console.log('the user is logged out');
     }
 };
 
@@ -18,3 +21,5 @@ user.login();
 const userName = 'mario';
 console.log(userName);
 console.log(userName.toUpperCase());
+
+user.logout();
