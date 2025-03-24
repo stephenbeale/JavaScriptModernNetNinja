@@ -14,3 +14,7 @@ let user = {
 
 //calling the method on the user
 user.login();
+
+const userName = 'mario';
+console.log(userName);
+console.log(userName.toUpperCase());
