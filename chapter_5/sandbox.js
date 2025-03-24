@@ -6,13 +6,13 @@ let user = {
     email: 'crystal@thenetninja.co.uk',
     location: 'berlin',
     blogs: ['why mac and cheese rules', '10 things to make after marmite'],
-    login: function() {
+    login() {
         console.log('the user logged in');
     },
-    logout: function() {
+    logout() {
         console.log('the user is logged out');
     },
-    logBlogs: function() {
+    logBlogs() {
         console.log('this user has written the following blogs:');
         this.blogs.forEach(blog => {
             console.log(blog);
