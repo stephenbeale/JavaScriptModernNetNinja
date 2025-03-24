@@ -13,10 +13,14 @@ let user = {
         console.log('the user is logged out');
     },
     logBlogs: function() {
-
+        console.log('this user has written the following blogs:');
+        this.blogs.forEach(blog => {
+            console.log(blog);
+        })
     }
 
 };
 
 //this used in this way logs the global context in JS, which is the 'window' object, as can be seen on the console.
-console.log(this);
+//console.log(this);
+user.logBlogs();
