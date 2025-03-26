@@ -24,3 +24,4 @@ let user = {
 //this used in this way logs the global context in JS, which is the 'window' object, as can be seen on the console.
 //console.log(this);
 user.logBlogs();
+//
