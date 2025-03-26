@@ -1,22 +1,14 @@
-//Math object
+//primitive values
 
-console.log(Math);
-console.log(Math.PI);
-console.log(Math.E);
+let scoreOne = 50;
+let scoreTwo = scoreOne;
 
-//Math methods
+console.log('scoreOne: ${scoreOne}', 'scoreTwo: ${scoreTwo}');
 
-const area = 7.7;
+scoreOne = 100;
 
-console.log(Math.round(area));
-console.log(Math.floor(area));
-console.log(Math.ceil(area));
-console.log(Math.trunc(area));
+console.log('scoreOne: ${scoreOne}', 'scoreTwo: ${scoreTwo}');
 
+//reference values
 
-// random numbers
-
-const random = Math.random();
-
-console.log(random);
-console.log(Math.round(random));
+// userOne =  {name: 'ryu'}
