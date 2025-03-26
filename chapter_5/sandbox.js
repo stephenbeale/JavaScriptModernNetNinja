@@ -1,22 +1,27 @@
-//Math object
+//primitive values
 
-console.log(Math);
-console.log(Math.PI);
-console.log(Math.E);
+// // let scoreOne = 50;
+// // let scoreTwo = scoreOne;
 
-//Math methods
+// // console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);
 
-const area = 7.7;
+// // scoreOne = 100;
 
-console.log(Math.round(area));
-console.log(Math.floor(area));
-console.log(Math.ceil(area));
-console.log(Math.trunc(area));
+// // console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);
 
+//reference values
 
-// random numbers
+const userOne =  {name: 'ryu', age: 30};
 
-const random = Math.random();
+//copies pointer on the stack, not the object on the heap
+const userTwo = userOne;
 
-console.log(random);
-console.log(Math.round(random));
+console.log(userOne, userTwo);
+
+//only stored on the heap, not the stack, 
+// so changing userOne also changes userTwo given the pointer connection
+userOne.age = 40;
+console.log(userOne, userTwo);
+
+userOne.name = "chun-li";
+console.log(userOne, userTwo);
