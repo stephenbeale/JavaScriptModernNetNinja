@@ -6,20 +6,22 @@ let user = {
     email: 'crystal@thenetninja.co.uk',
     location: 'berlin',
     blogs: ['why mac and cheese rules', '10 things to make after marmite'],
-    login: function() {
+    login() {
         console.log('the user logged in');
     },
-    logout: function() {
+    logout() {
         console.log('the user is logged out');
+    },
+    logBlogs() {
+        console.log('this user has written the following blogs:');
+        this.blogs.forEach(blog => {
+            console.log(blog);
+        })
     }
+
 };
 
-
-//calling the method on the user
-user.login();
-
-const userName = 'mario';
-console.log(userName);
-console.log(userName.toUpperCase());
-
-user.logout();
+//this used in this way logs the global context in JS, which is the 'window' object, as can be seen on the console.
+//console.log(this);
+user.logBlogs();
+//
